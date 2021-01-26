@@ -126,4 +126,4 @@
         // Finally: Start adding petals.
         requestAnimationFrame(petalCreator);
     };
-}(jQuery));
+}());
