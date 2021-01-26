@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
   </head>
   <body>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <canvas id="canvas"></canvas>
+    <style>
+      canvas {display:none;z-index:0;position:relative;pointer-events: none;position: fixed;top: 0;}
+    </style>
+    <script src="https://tistory2.daumcdn.net/tistory/3229430/skin/images/confetti.js"></script>
     <script>
       function reAction(){
         $("#canvas").fadeIn(1000);
@@ -13,11 +19,6 @@
       }
       reAction();
     </script>
-    <canvas id="canvas"></canvas>
-    <style>
-      canvas {display:none;z-index:0;position:relative;pointer-events: none;position: fixed;top: 0;}
-    </style>
-    <script src="https://tistory2.daumcdn.net/tistory/3229430/skin/images/confetti.js"></script>
-    <p>생일 축하gody</p>
+    <p>생일 축하합니당</p>
   </body>
 </html>
