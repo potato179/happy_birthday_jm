@@ -4,21 +4,12 @@
     <meta charset="UTF-8">
   </head>
   <body>
-    <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <canvas id="canvas"></canvas>
-    <style>
-      canvas {display:none;z-index:0;position:relative;pointer-events: none;position: fixed;top: 0;}
-    </style>
-    <script src="https://tistory2.daumcdn.net/tistory/3229430/skin/images/confetti.js"></script>
-<!--     <script>
-      function reAction(){
-        $("#canvas").fadeIn(1000);
-        setTimeout(function(){
-          $("#canvas").fadeOut(2000);
-        }, 5000);
-      }
-      reAction();
-    </script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+      $(window).load(function () {
+          $('body').sakura();
+      });
+    </script>
     <p>생일 축하합니다~~</p>
   </body>
 </html>
