@@ -6,19 +6,19 @@
 	  @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
 	  .div{ font-family: 'Single Day' }
       body { background: #000 }
-      #outer { width:98%; height:1000px; position:absolute; top:0px; left:50%; transform:translateX(-50%); }
+      #outer { width:98%; height:100%; position:absolute; top:0px; left:50%; transform:translateX(-50%); }
       
-      .snowflake { height:1000px; color: #fff; font-size: 1em; font-family: Arial; text-shadow: 0 0 1px #000; }
+      .snowflake { height:100%; color: #fff; font-size: 1em; font-family: Arial; text-shadow: 0 0 1px #000; }
       
       @-webkit-keyframes snowflakes-fall {
-          0% { top:-10% } 100% { top:1000px }
+          0% { top:-10% } 100% { top:100% }
       }
       @-webkit-keyframes snowflakes-shake {
           0%, 100% { -webkit-transform:translateX(0); transform:translateX(0) }
           50% { -webkit-transform:translateX(80px); transform:translateX(80px) }
       }
       @keyframes snowflakes-fall {
-          0% { top:-10% } 100% { top:1000px }
+          0% { top:-10% } 100% { top:100% }
       }@keyframes snowflakes-shake {
           0%, 100% { transform:translateX(0) }
           50% { transform:translateX(80px) }
