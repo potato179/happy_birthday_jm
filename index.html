@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
   </head>
   <body>
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="style.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://raw.githubusercontent.com/kimain050401/jquery-fireworks/master/jquery.fireworks.js"></script>
     <script>
-      $(window).load(function () {
-          $('body').sakura();
-      });
+      $('#divElement').fireworks();
     </script>
-    <p>생일 축하합니다~~~~~~~!!!!~~~~</p>
+    <div class="divElement" id="divElement">
+      <p>생일 축하합니다~~~~~~~!!!!~~~~</p>
+    </div>
   </body>
 </html>
